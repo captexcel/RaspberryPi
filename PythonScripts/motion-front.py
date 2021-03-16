@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-#Raspberry Pi Motion Sensor
-#!pip3 install gTTS
-#!pip3 install gpiozero
-#!sudo apt-get install mpg321
+# Raspberry Pi Motion Sensor
+# Author: CaptExcel
+# !pip3 install gTTS
+# !pip3 install gpiozero
+# !sudo apt-get install mpg321
 
 import os
 import time
