@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # ECPI Motion - Raspberry Pi Motion Sensor w/ email
+# Author: CaptExcel
 import os
 import time
 from gtts import gTTS
