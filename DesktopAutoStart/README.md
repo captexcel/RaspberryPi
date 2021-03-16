@@ -2,7 +2,7 @@
 The two files here are for running python scripts on boot to the Desktop on the Raspberry Pi. 
 The files need to be placed into the following directory (create autostart folder if it does not exist):
 ```
-.config/autostart
+/home/pi/.config/autostart
 ```
 
 ## autostart.desktop
