@@ -1,7 +1,7 @@
 # RaspberryPi
 Raspberry Pi Projects for students
 
-### email.py
-### motion.py
-### motion-front.py
-### startup_sounds.py
+## Samples Folder
+The Samples folder contains a few examples of python scripts that utilize different libraries that can be run on the Raspberry Pi
+
+
