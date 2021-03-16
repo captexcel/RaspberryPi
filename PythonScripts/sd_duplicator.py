@@ -2,6 +2,7 @@
 # SD Card Duplicator 
 # Duplicate more than one SD Card at a time using the Raspberry Pi and a USB 3.0 Hub
 # Author: CaptExcel
+# Initial Source: https://ccse.kennesaw.edu/outreach/raspberrypi/duplicate_sd.php
 
 import os
 import time
