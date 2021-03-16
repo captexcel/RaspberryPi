@@ -5,11 +5,12 @@ import smtplib
 import imghdr
 from email.message import EmailMessage
 
+user = "YOUR-GMAIL-ACCOUNT"
+password = "YOUR-GOOGLE-2FA-AUTH-CODE" #Comment out to debug
+    
 def email_alert(subject, body, to, ipath):
     image_path = ipath
-    user = "YOUR-GMAIL-ACCOUNT"
-    password = "YOUR-GOOGLE-2FA-AUTH-CODE" #Comment out to debug
-
+    
     msg = EmailMessage()
     msg.set_content(body)
     msg['subject'] = subject
@@ -29,4 +30,5 @@ def email_alert(subject, body, to, ipath):
     server.quit()
 
 if __name__ == "__main__":
-    email_alert("Testing", "This is a test", "YOUR-GMAIL-ACCOUNT", "")
+    #This will send a test email to the current user if the file is opened directly.
+    email_alert("Testing", "This is a test", user, "")
