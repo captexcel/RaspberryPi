@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # ECPI Motion - Raspberry Pi Motion Sensor w/ email
 # Author: CaptExcel
+'''
+Requirements: 
+pip3 install gTTS
+pip3 install gpiozero
+sudo apt-get install mpg321
+'''
 import os
 import time
 from gtts import gTTS
