@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Author: CaptExcel
 import os
 import time
 from gtts import gTTS
