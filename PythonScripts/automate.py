@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-# Robotic Process Automation
+# Robotic Process Automation (RPA)
 # Use the Raspberry Pi to automate a specified action
 # Author: CaptExcel
 # Initial Source: https://pyautogui.readthedocs.io/en/latest/
 '''
+Requirements:
+pip3 install pyautogui
+'''
+'''
+Refrence Material:
 Mouse
 .moveTo(x,y,duration=num_seconds)
 .click(x=moveToX, y=moveToY, clicks=num_of_clicks, interval=secs_between_clicks, button='left')
