@@ -3,6 +3,15 @@
 # Author: CaptExcel
 # Initial Source: https://pimylifeup.com/raspberry-pi-rfid-rc522/
 '''
+Requirements:
+'''
+'''
+Needed Supplies:
+- RFID-RC522 Board
+- Header jumper wires
+'''
+'''
+Reference Material:
 RFID-RC522 Pinout to the Raspberry Pi 4 GPIO headers
 SDA  -->  PIN 24
 SCK  -->  PIN 23
