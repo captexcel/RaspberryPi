@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 # Keyboard HotKey
 # Author: CaptExcel
+# Initial Source: https://pypi.org/project/pynput/
+'''
+Requirements:
+pip3 install pynput
+'''
 from pynput import keyboard
 
 def function_1():
