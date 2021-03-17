@@ -17,6 +17,7 @@ Raspberry Pi Projects for students
 - https://projects.raspberrypi.org/en
 - https://www.raspberrypi.org/software/operating-systems/
 - https://github.com/raspberrypi/documentation
+- https://www.raspberrypi.org/documentation/linux/usage/commands.md
 
 <br/></br>
 # Coming Soon:
