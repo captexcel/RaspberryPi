@@ -22,12 +22,18 @@ RST  -->  PIN 22
 3.3v -->  PIN 1
 '''
 
+# import required libraries
 #Comment out the next two lines if this is the first time using the Raspberry Pi RFID Reader
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 import os
 import time
 
+# required variables
+yes = (['Y','y','YES','yes'])
+no = (['N','n','NO','no'])
+
+# main functions
 #Install all dependencies required to run this script
 #Note: You will need to comment out the two lines referenced above before running this script or it will result in an error
 def install_dependencies():
@@ -70,14 +76,13 @@ def make_decision():
 			print('Closing!')
 			exit()
 
-yes = (['Y','y','YES','yes'])
-no = (['N','n','NO','no'])
-
-while True:
-	choice = input('Install Dependencies? [y/n]: ').lower()
-	if choice in yes:
-		install_dependencies()
-	elif choice in no:
-		make_decision()
-	else:
-		make_decision()
+# end of file check to see if this file is being opened directly or is being called from another script
+if __name__ == ‘__main__’:
+	while True:
+		choice = input('Install Dependencies? [y/n]: ').lower()
+		if choice in yes:
+			install_dependencies()
+		elif choice in no:
+			make_decision()
+		else:
+			make_decision()
