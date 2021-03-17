@@ -11,6 +11,7 @@ This folder contains two ways of starting a python script on boot to the Desktop
 # Resources:
 ## GitHub Resources
 - https://guides.github.com/features/mastering-markdown/
+- https://arcticicestudio.github.io/styleguide-markdown/
 
 ## Raspberry Pi Resources
 - https://projects.raspberrypi.org/en
