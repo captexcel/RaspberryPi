@@ -7,7 +7,7 @@ In order to execute the python script you may need to grant permissions to run i
 chmod +x name_of_python_script.py
 ```
 
-
+# Python Script Descriptions
 ## 🐍 automate.py
 This is a very basic Robtic Process Automation (RPA) script utilizing the **pyautogui** library.
 
