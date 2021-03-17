@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-# ECPI Motion - Raspberry Pi Motion Sensor w/ email
+# Description: ECPI Motion - Raspberry Pi Motion Sensor w/ email
 # Author: CaptExcel
+# Initial Source: 
+# Additional Source(s) as used:
 '''
 # Requirements: 
 - pip3 install gTTS
