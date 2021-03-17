@@ -1,13 +1,31 @@
 #!/usr/bin/env python3
 # Email Handler
 # Author: CaptExcel
+# Initial Source: 
+# Additional Source(s) as used:
+'''
+# Requirements:
+- N/A
+'''
+'''
+# Needed Supplies:
+- N/A
+'''
+'''
+# Reference Material:
+- N/A
+'''
+
+# import required libraries
 import smtplib
 import imghdr
 from email.message import EmailMessage
 
+# required variables
 user = "YOUR-GMAIL-ACCOUNT"
 password = "YOUR-GOOGLE-2FA-AUTH-CODE" #Comment out to debug
-    
+
+# main functions
 def email_alert(subject, body, to, ipath):
     image_path = ipath
     
@@ -29,6 +47,7 @@ def email_alert(subject, body, to, ipath):
     server.send_message(msg)
     server.quit()
 
+# end of file check to see if this file is being opened directly or is being called from another script
 if __name__ == "__main__":
     #This will send a test email to the current user if the file is opened directly.
     email_alert("Testing", "This is a test", user, "")
