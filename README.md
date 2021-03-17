@@ -16,3 +16,8 @@ This folder contains two ways of starting a python script on boot to the Desktop
 - https://projects.raspberrypi.org/en
 - https://www.raspberrypi.org/software/operating-systems/
 - https://github.com/raspberrypi/documentation
+
+# Coming Soon:
+- [ ] `requirements.txt` - containing all required dependencies for running the python scripts located in the PythonScripts Folder
+- [ ] `install.py` - a python script to install the `requirements.txt` file
+- [ ] `base.py` - a python template for standardizing the python script layout
