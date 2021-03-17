@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-# Raspberry Pi Motion Sensor
+# Description: Raspberry Pi Motion Sensor
 # Author: CaptExcel
+# Initial Source: 
+# Additional Source(s) as used:
 '''
 # Requirements: 
 - pip3 install gTTS
