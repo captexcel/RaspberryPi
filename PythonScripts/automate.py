@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Robotic Process Automation (RPA)
+# Description: Robotic Process Automation (RPA)
 # Use the Raspberry Pi to automate a specified action
 # Author: CaptExcel
 # Initial Source: https://pyautogui.readthedocs.io/en/latest/
