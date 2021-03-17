@@ -16,7 +16,7 @@
 # Reference Material:
 - PIR Motion Sensor Pinout to the Raspberry Pi 4 GPIO headers (PIN Number Reference: https://www.raspberrypi.org/documentation/usage/gpio/)
 5v.    -->  PIN 2
-Signal -->  PIN 37
+Signal -->  PIN 37 (GPIO 26)
 Ground -->  PIN 39
 '''
 
