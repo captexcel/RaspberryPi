@@ -12,8 +12,8 @@ chmod +x name_of_python_script.py
 
 <br/></br>
 # .desktop Files
->## autostart.desktop
->This is useful for running the `numlock.py` script or any script that does not require any action by the user.
+## autostart.desktop
+>Description: This is useful for running the `numlock.py` script or any script that does not require any action by the user.
 
->## autostart_terminal.desktop
->This is useful for running scripts that you may need to see what is going on and for debugging purposes.
+## autostart_terminal.desktop
+>Description: This is useful for running scripts that you may need to see what is going on and for debugging purposes.
