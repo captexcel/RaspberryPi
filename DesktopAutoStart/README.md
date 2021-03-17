@@ -10,7 +10,8 @@ The files need to be placed into the following directory (create autostart folde
 chmod +x name_of_python_script.py
 ```
 
-
+<br/></br>
+# .desktop Files
 >## autostart.desktop
 >This is useful for running the `numlock.py` script or any script that does not require any action by the user.
 
