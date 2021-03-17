@@ -8,6 +8,10 @@ Requirements:
 pip3 install pyautogui
 '''
 '''
+Needed Supplies:
+- N/A
+'''
+'''
 Refrence Material:
 Mouse
 .moveTo(x,y,duration=num_seconds)
