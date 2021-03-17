@@ -24,3 +24,6 @@ Raspberry Pi Projects for students
 - [ ] `requirements.txt` - containing all required dependencies for running the python scripts located in the PythonScripts Folder
 - [ ] `install.py` - a python script to install the `requirements.txt` file
 - [ ] `base.py` - a python template for standardizing the python script layout
+- [ ] Program specific project ideas
+- [ ] Healthcare related program ideas
+- [ ] Long-term project continuation
