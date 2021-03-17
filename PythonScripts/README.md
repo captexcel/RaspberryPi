@@ -1,6 +1,13 @@
 # Python Scripts
 This collection of python scripts will allow you to do a number of different actions on the Raspberry Pi.
 
+### General Information for Raspberry Pi
+In order to execute the python script you may need to grant permissions to run it from the Raspberry Pi Terminal. This is required when running the file automatically on the Desktop boot option explained in the `./DesktopAutoStart` Folder
+```terminal
+chmod +x name_of_python_script.py
+```
+
+
 ## 🐍 automate.py
 This is a very basic Robtic Process Automation (RPA) script utilizing the **pyautogui** library.
 
