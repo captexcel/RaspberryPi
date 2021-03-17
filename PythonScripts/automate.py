@@ -4,16 +4,16 @@
 # Author: CaptExcel
 # Initial Source: https://pyautogui.readthedocs.io/en/latest/
 '''
-Requirements:
-pip3 install pyautogui
+# Requirements:
+- pip3 install pyautogui
 '''
 '''
-Needed Supplies:
+# Needed Supplies:
 - N/A
 '''
 '''
-Refrence Material:
-Mouse
+# Refrence Material:
+- Mouse
 .moveTo(x,y,duration=num_seconds)
 .click(x=moveToX, y=moveToY, clicks=num_of_clicks, interval=secs_between_clicks, button='left')
 .rightClick(x=moveToX, y=moveToY)
@@ -22,7 +22,7 @@ Mouse
 .tripleClick(x=moveToX, y=moveToY)
 .scroll(amount_to_scroll, x=moveToX, y=moveToY)
 
-Keyboard
+- Keyboard
 .typewrite('Hello world!\n', interval=secs_between_keys)  # useful for entering text, newline is Enter
 .typewrite(['a', 'b', 'c', 'left', 'backspace', 'enter', 'f1'], interval=secs_between_keys)
 .press('enter')
@@ -31,12 +31,15 @@ Keyboard
 .keyDown(key_name)
 .keyUp(key_name)
 
-Images
+- Images
 .locateCenterOnScreen('looksLikeThis.png')  # returns center x and y
 '''
+
+# import required libraries
 import pyautogui
 from time import sleep, localtime, strftime
 
+# required variables
 pyautogui.PAUSE = 0
 pyautogui.FAILSAFE = True
 
@@ -44,7 +47,7 @@ move_duration = .3
 type_speed = .07
 my_confidence = 0.7
 
-
+# main functions
 def send_email_from_outlook():
     pyautogui.click(pyautogui.locateCenterOnScreen('/home/pi/ECPI/images/chromium.png'), duration=move_duration)
     sleep(5)
@@ -109,6 +112,6 @@ def send_email_from_outlook():
     pyautogui.keyUp('alt')
     pyautogui.keyUp('F4')
 
-
+# end of file check to see if this file is being opened directly or is being called from another script
 if __name__ == '__main__':
     send_email_from_outlook()
