@@ -1,10 +1,10 @@
 # RaspberryPi
 Raspberry Pi Projects for students
 
-## 📁 PythonScripts Folder
+## [📁 PythonScripts Folder](https://github.com/captexcel/RaspberryPi/tree/main/PythonScripts)
 This folder contains examples of python scripts that utilize different libraries that can be run on the Raspberry Pi.
 
-## 📁 DesktopAutoStart Folder
+## [📁 DesktopAutoStart Folder](https://github.com/captexcel/RaspberryPi/tree/main/DesktopAutoStart)
 This folder contains two ways of starting a python script on boot to the Desktop of the Raspberry Pi when using the Raspberry Pi OS Desktop.
 
 
