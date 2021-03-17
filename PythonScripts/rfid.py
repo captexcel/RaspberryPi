@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-# RFID Reader/Writer for Raspberry Pi 4
+# Description: RFID Reader/Writer for Raspberry Pi 4
 # Author: CaptExcel
 # Initial Source: https://pimylifeup.com/raspberry-pi-rfid-rc522/
+# Additional Source(s) as used:
 '''
 Requirements:
 '''
 '''
 Needed Supplies:
-- RFID-RC522 Board
-- Header jumper wires
+- (1) RFID-RC522 Board
+- (7) Header jumper wires
 '''
 '''
 Reference Material:
