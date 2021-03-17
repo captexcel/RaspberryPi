@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Email Handler
+# Description: Email Handler
 # Author: CaptExcel
 # Initial Source: 
 # Additional Source(s) as used:
