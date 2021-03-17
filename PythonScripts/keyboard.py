@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Keyboard HotKey
+# Description: Keyboard HotKey
 # Author: CaptExcel
 # Initial Source: https://pypi.org/project/pynput/
 '''
