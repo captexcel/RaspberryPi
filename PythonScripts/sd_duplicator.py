@@ -10,7 +10,7 @@
 '''
 '''
 # Needed Supplies:
-- N/A
+- (1) USB 3.0 4 port hub
 '''
 '''
 # Reference Material:
