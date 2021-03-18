@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Title: Startup Sounds
 # Description: Create a sounds file to play on boot
 # Author: CaptExcel
 # Initial Source: 
@@ -21,7 +22,7 @@ import os
 import time
 from gtts import gTTS
 
-# required variables
+# define global variables
 speak_greeting = 'Good day!'
 file_path = '/home/pi/ECPI/autostart/sounds'
 sound_name = '/startup.mp3'
