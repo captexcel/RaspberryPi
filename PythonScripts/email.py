@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Description: Email Handler
+# Title: Email Handler
+# Description: Sending email with an image attachement
 # Author: CaptExcel
 # Initial Source: 
 # Additional Source(s) as used:
@@ -21,7 +22,7 @@ import smtplib
 import imghdr
 from email.message import EmailMessage
 
-# required variables
+# define global variables
 user = "YOUR-GMAIL-ACCOUNT"
 password = "YOUR-GOOGLE-2FA-AUTH-CODE" #Comment out to debug
 
