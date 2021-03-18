@@ -6,6 +6,8 @@
 # Additional Source(s) as used:
 '''
 Requirements:
+- pip3 install mfrc522
+- pip3 install gpiozero
 '''
 '''
 Needed Supplies:
