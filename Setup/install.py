@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Title: Install
 # Description: Install Required Dependencies for the appropriate script
 # Author: CaptExcel
 # Initial Source:
@@ -20,7 +21,7 @@
 import os
 import sys
 
-# required global variables
+# define global variables
 comment = (["#"])
 args = (["-f","-h"])
 
@@ -48,12 +49,13 @@ def install(a_v):
         print('''
         Usage from terminal:
 
-        1. Install a custom files list
-        python3 install.py -r your-file-name
-        
-        2. Install the requirements.txt file
+        1. Install the requirements.txt file
         python3 install.py
-
+        
+        2. Install a custom files list*
+        python3 install.py -r your-file-name
+        * See requirements.txt for file requirements to install properly when using your own file
+        
         Written by CaptExcel''')
     else:
         for x in a_v[2:]:
