@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Description: ECPI Motion - Raspberry Pi Motion Sensor w/ email
+# Title: ECPI Motion
+# Description: Raspberry Pi Motion Sensor w/ email
 # Author: CaptExcel
 # Initial Source: 
 # Additional Source(s) as used:
@@ -29,7 +30,7 @@ from gtts import gTTS
 from gpiozero import MotionSensor
 from email import email_alert
 
-# required variables
+# define global variables
 # Define the variables from the user
 # gTTS elements
 speak_greeting = 'Warning! Warning! Motion has been detected!' #Change this to what you want it to say
