@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-# Description: Script to automatically turn the num lock on when Raspberry Pi boot
-# By default the numlock on the keyboard is set to off if using the Raspberry Pi OS Desktop as of 3/16/2021
+# Title: NumLock
+# Description: Script to automatically turn the num lock on when Raspberry Pi boot. By default the numlock on the keyboard is set to off if using the Raspberry Pi OS Desktop as of 3/16/2021
 # Author: CaptExcel
 # Initial Source: 
 # Additional Source(s) as used:
@@ -20,7 +20,7 @@
 # import required libraries
 from pynput.keyboard import Key, Controller
 
-# required variables
+# define global variables
 keyboard = Controller()
 
 # main functions
