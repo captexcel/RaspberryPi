@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Description: Raspberry Pi Motion Sensor
+# Title: ECPI Motion (Front Door)
+# Description: Raspberry Pi Motion Sensor to play audio file created using Google text-to-speech
 # Author: CaptExcel
 # Initial Source: 
 # Additional Source(s) as used:
@@ -28,7 +29,7 @@ import time
 from gtts import gTTS
 from gpiozero import MotionSensor
 
-# required variables
+# define global variables
 '''
 # TO RECORD NEW MESSAGES:
 # GO TO /home/pi/ECPI/sounds
