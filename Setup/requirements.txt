@@ -22,6 +22,7 @@ pip3 install gTTS
 pip3 install pynput
 pip3 install gpiozero
 pip3 install pyautogui
+pip3 install mfrc522
 
 # Create the required directories
 cd .config/ && mkdir autostart/ 
