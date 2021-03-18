@@ -1,11 +1,14 @@
 # RaspberryPi
 Raspberry Pi Projects for students
 
+## 📁 [DesktopAutoStart](https://github.com/captexcel/RaspberryPi/tree/main/DesktopAutoStart)
+>Description: This folder contains two ways of starting a python script on boot to the Desktop of the Raspberry Pi when using the Raspberry Pi OS Desktop.
+
 ## 📁 [PythonScripts](https://github.com/captexcel/RaspberryPi/tree/main/PythonScripts)
 >Description: This folder contains examples of python scripts that utilize different libraries that can be run on the Raspberry Pi.
 
-## 📁 [DesktopAutoStart](https://github.com/captexcel/RaspberryPi/tree/main/DesktopAutoStart)
->Description: This folder contains two ways of starting a python script on boot to the Desktop of the Raspberry Pi when using the Raspberry Pi OS Desktop.
+## 📁 [Setup](https://github.com/captexcel/RaspberryPi/tree/main/Setup)
+>Description: This folder contains the link to the base image of the Raspberry Pi Operating System along with the initial setup instructions to return your Raspberry Pi back to the initial setup.
 
 <br/></br>
 # Resources:
