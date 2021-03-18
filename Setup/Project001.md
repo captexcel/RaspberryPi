@@ -58,6 +58,7 @@ Click `Finish`
 
 ### Mac
 IP Address: ____________________
+
 On your Raspberry Pi open Terminal to retrieve your IP Address by typing the following into the terminal and hitting enter.
 ```terminal
 hostname –I
