@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Mouse Listener
+# Title: Mouse Listener
+# Description: Watch the mouse cursor and write the coorindates to the terminal
 # Author: CaptExcel
 # Initial Source: 
 # Additional Source(s) as used:
@@ -19,7 +20,7 @@
 # import required libraries
 from pynput import mouse
 
-# required variables
+# define global variables
 
 # main functions
 def on_move(x, y):
