@@ -1,13 +1,28 @@
 #!/usr/bin/env python3
-# SD Card Duplicator 
-# Duplicate more than one SD Card at a time using the Raspberry Pi and a USB 3.0 Hub
+# Title: SD Card Duplicator 
+# Description: Duplicate more than one SD Card at a time using the Raspberry Pi and a USB 3.0 Hub
 # Author: CaptExcel
 # Initial Source: https://ccse.kennesaw.edu/outreach/raspberrypi/duplicate_sd.php
+# Additional Source(s) as used:
+'''
+# Requirements:
+- pip3 install gTTS
+'''
+'''
+# Needed Supplies:
+- N/A
+'''
+'''
+# Reference Material:
+- N/A
+'''
 
+# import required libraries
 import os
 import time
 from gtts import gTTS
 
+# define global variables
 file_path = '/duplicator'
 dependencies = 'Installing dependencies now.'
 dependencies_sound = '/dependencies.mp3'
@@ -19,6 +34,7 @@ img_duplicated_sound = '/duplicated.mp3'
 yes = set(['yes','y','Y','YES'])
 no = set(['no','n','N','NO'])
 
+# main functions
 if not os.path.exists(file_path):
     os.makedirs(file_path)
 if not os.path.exists(file_path+img_created_sound):
@@ -87,6 +103,7 @@ def make_duplicates(my_img_name):
             break
         else:
             print("Please respond with 'yes' or 'no'\n")
+# end of file check to see if this file is being opened directly or is being called from another script
 if __name__ == "__main__":
     input('Press Enter to continue...')
     install_dependencies()
