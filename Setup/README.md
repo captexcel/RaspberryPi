@@ -13,7 +13,6 @@ chmod +x install.py
 ```terminal
 python3 install.py
 ```
-<br/></br>
 # Projects
 * [Project #1: Configuration of Raspberry Pi into Network Attached Storage (NAS) Device](https://github.com/captexcel/RaspberryPi/blob/main/Setup/Project001.md)
 
