@@ -16,5 +16,6 @@ python3 install.py
 # Projects
 * [Project #1: Configuration of Raspberry Pi into Network Attached Storage (NAS) Device](https://github.com/captexcel/RaspberryPi/blob/main/Setup/Project001.md)
 
-# Coming Soon
+<br/></br>
+### Coming Soon
 - [ ] Additional Projects
