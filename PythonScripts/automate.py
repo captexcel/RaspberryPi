@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Description: Robotic Process Automation (RPA)
+# Title: Robotic Process Automation (RPA)
+# Description: Automation for sending and email
 # Use the Raspberry Pi to automate a specified action
 # Author: CaptExcel
 # Initial Source: https://pyautogui.readthedocs.io/en/latest/
@@ -39,7 +40,7 @@
 import pyautogui
 from time import sleep, localtime, strftime
 
-# required variables
+# define global variables
 pyautogui.PAUSE = 0
 pyautogui.FAILSAFE = True
 
