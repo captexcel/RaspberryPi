@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Description: Keyboard HotKey
+# Title: Keyboard HotKey 
+# Description: Setup a keyboard hotkey that allows a user to run a function when the hotkeys are pressed together
 # Author: CaptExcel
 # Initial Source: https://pypi.org/project/pynput/
 '''
@@ -18,7 +19,7 @@
 # import required libraries
 from pynput import keyboard
 
-# required variables
+# define global variables
 
 # main functions
 def function_1():
