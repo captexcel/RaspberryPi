@@ -1,6 +1,6 @@
 
 # Initial Setup Checklist for your Raspberry Pi
-***NOTE:*** *If you are getting this Raspberry Pi from Mr. Ayers, the inital setup checklist has already been completed. You can start with the Projects listed below.*
+***NOTE:*** *If you are getting this Raspberry Pi from Mr. Ayers, the inital setup checklist has already been completed. You can start with the Projects listed below. The checklist below is only needed if you are restoring the Raspberry Pi to the initial default state.*
 - [ ] Install [Raspberry Pi OS with desktop](https://www.raspberrypi.org/software/operating-systems/)
 - [ ] Connect your Raspberry Pi to a known ethernet or wifi connection
 - [ ] Download the [`requirements.txt`](https://github.com/captexcel/RaspberryPi/blob/main/Setup/requirements.txt) and the [`install.py`](https://github.com/captexcel/RaspberryPi/blob/main/Setup/install.py) file from the [**`Setup`**](https://github.com/captexcel/RaspberryPi/blob/main/Setup) directory and place the files onto the Desktop
