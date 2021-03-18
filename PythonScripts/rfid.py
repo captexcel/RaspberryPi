@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Description: RFID Reader/Writer for Raspberry Pi 4
+# Title: RFID Reader/Writer
+# Description: Read and write RFID chips/badges using the RFID-RC522 board
 # Author: CaptExcel
 # Initial Source: https://pimylifeup.com/raspberry-pi-rfid-rc522/
 # Additional Source(s) as used:
@@ -30,7 +31,7 @@ from mfrc522 import SimpleMFRC522
 import os
 import time
 
-# required variables
+# define global variables
 yes = (['Y','y','YES','yes'])
 no = (['N','n','NO','no'])
 
