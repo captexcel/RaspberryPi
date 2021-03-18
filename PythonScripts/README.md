@@ -110,6 +110,14 @@ sudo apt-get install mpg321
 <br/></br>
 ## 🐍 mouse_listen.py
 >Description: This script will print out the location of the mouse cursor when moved. This can be helpful when utilizing the **pynput** library to get the specific cooridantes of the mouse cursor.
+#### Requirements:
+```
+pip3 install pynput
+```
+#### Needed Supplies:
+- N/A
+#### Reference Material:
+- N/A
 
 <br/></br>
 ## 🐍 numlock.py
