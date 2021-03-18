@@ -1,0 +1,28 @@
+# Use the following file to install the required dependencies for all scripts in this directory
+# Required Dependencies for the https://github.com/captexcel/RaspberryPi/tree/main/PythonScripts directory
+# Author: CaptExcel
+# Initial Source: https://medium.com/featurepreneur/install-python-packages-pip-and-requirements-txt-652cd5e335
+# Usage: put the normal command you would run in the terminal
+# Install: pip install -r requirements.txt
+# Create requirements.txt: pip freeze > requirements.txt
+# References:
+# Specify the version with ==, >, >=, <, <=, etc. If the version is omitted, the latest version is installed.
+
+# Update/Upgrade the Raspberry Pi
+sudo apt update -y
+sudo apt full-upgrade
+sudo apt install rpi-imager -y
+sudo apt install samba samba-common
+sudo apt install fswebcam -y
+sudo usermod -a -G video pi
+sudo apt-get install mpg321 -y
+
+# Install Python Packages
+pip3 install gTTS
+pip3 install pynput
+pip3 install gpiozero
+pip3 install pyautogui
+
+# Create the required directories
+cd .config/ && mkdir autostart/ 
+mkdir /home/pi/ECPI && mkdir /home/pi/ECPI/Motion && mkdir /home/pi/ECPI/Storage && mkdir /home/pi/.ECPIautostart
